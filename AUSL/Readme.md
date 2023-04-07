@@ -7,6 +7,12 @@ Di ogni struttura ospedaliera occorre memorizzare il codice, il nome, l'indirizz
 
 Le unità operative sono classificate tramite un codice ed una descrizione (ad es. Medicina, Diabetologia, Ostetricia e Ginecologia, Ematologia, Terapia intensiva, Urologia ecc.). I pazienti sono identificati dal codice fiscale, cognome, nome, data di nascita, genere (M/F), indirizzo, città, provincia di residenza, recapito telefonico. Gli interventi sono classificati con codice, descrizione e costo.
 
+# Query
+* Fornire l'elenco dei ricoveri in cui sono stati effettuati gli interventi di costo superiore a euro 2000.00
+* Fornire l'elenco delle strutture ospedaliere private in ordine di provincia di appartenenza e, a parità di provincia, in ordine alfabetico di denominazione
+* Visualizzare un elenco delle unità operative per cui risultino più di 100 ricoveri
+* Fornire il numero di pazienti ricoverati causa COVID a partire da marzo 2
+
 ---
 
 ![test.imc](https://www.alfredocentinaro.it/wp-content/uploads/2022/07/prova4.drawio1.svg "test.imc")

@@ -20,18 +20,18 @@ Le unità operative sono classificate tramite un codice ed una descrizione (ad e
 
 # Modello Logico
 
-AUSL(NomeAusl, Descrizione)
+AUSL(**NomeAusl**, Descrizione)
 
-Struttura(IDStruttura, Nome, Indirizzo, Città, Provincia, FK_NomeAusl)
+Struttura(**IDStruttura**, Nome, Indirizzo, Città, Provincia, ***FK_NomeAusl***)
 
-UnitaOperativa(IDUnita, Descrizione)
+UnitaOperativa(**IDUnita**, Descrizione)
 
-UnitaOperativePerStrutture(ID, FK_IDStruttura, FK_IDUnita)
+UnitaOperativePerStrutture(**ID**, ***FK_IDStruttura***, ***FK_IDUnita***)
 
-Ricovero(IDRicovero, DataRicovero, DataDimissioni, FK_CF, FK_IDUnita)
+Ricovero(**IDRicovero**, DataRicovero, DataDimissioni, ***FK_CF***, ***FK_IDUnita***)
 
-Paziente(CF, Nome, Cognome, DataNascita, Genere, Indirizzo, Città, Provincia, Telefono)
+Paziente(**CF**, Nome, Cognome, DataNascita, Genere, Indirizzo, Città, Provincia, Telefono)
 
-Intervento(IDIntervento, Descrizone, Costo)
+Intervento(**IDIntervento**, Descrizone, Costo)
 
-InterventiPerRicoveri(ID, FK_IDRicovero, FK_IDIntervento)
+InterventiPerRicoveri(**ID**, ***FK_IDRicovero***, ***FK_IDIntervento***)

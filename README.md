@@ -1,2 +1,1 @@
-# esercizi-sql
-Esercizi sql, modelli concettuali, logici, query
+# Esercizi sql, modelli concettuali, logici, query

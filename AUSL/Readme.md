@@ -14,5 +14,24 @@ Le unità operative sono classificate tramite un codice ed una descrizione (ad e
 + Fornire il numero di pazienti ricoverati causa COVID a partire da marzo 2
 
 ---
+# Modello Concettuale
 
 ![test.imc](https://www.alfredocentinaro.it/wp-content/uploads/2022/07/prova4.drawio1.svg "test.imc")
+
+# Modello Logico
+
+AUSL(NomeAusl, Descrizione)
+
+Struttura(IDStruttura, Nome, Indirizzo, Città, Provincia, FK_NomeAusl)
+
+UnitaOperativa(IDUnita, Descrizione)
+
+UnitaOperativePerStrutture(ID, FK_IDStruttura, FK_IDUnita)
+
+Ricovero(IDRicovero, DataRicovero, DataDimissioni, FK_CF, FK_IDUnita)
+
+Paziente(CF, Nome, Cognome, DataNascita, Genere, Indirizzo, Città, Provincia, Telefono)
+
+Intervento(IDIntervento, Descrizone, Costo)
+
+InterventiPerRicoveri(ID, FK_IDRicovero, FK_IDIntervento)

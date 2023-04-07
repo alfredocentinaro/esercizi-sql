@@ -6,3 +6,7 @@ Ciascuna struttura appartiene ad una delle quattro AUSL in cui la regione è sud
 Di ogni struttura ospedaliera occorre memorizzare il codice, il nome, l'indirizzo, la città, la provincia, la AUSL di appartenenza, il tipo di struttura (se pubblica o privata). Di ciascun ricovero effettuato dalle varie strutture devono essere memorizzati: la data di inizio, la data di fine, la causa del ricovero. Deve, inoltre, contenere informazioni riguardo all'unità operativa in cui è avvenuta la degenza, al paziente coinvolto e agli eventuali interventi che sono stati effettuati.
 
 Le unità operative sono classificate tramite un codice ed una descrizione (ad es. Medicina, Diabetologia, Ostetricia e Ginecologia, Ematologia, Terapia intensiva, Urologia ecc.). I pazienti sono identificati dal codice fiscale, cognome, nome, data di nascita, genere (M/F), indirizzo, città, provincia di residenza, recapito telefonico. Gli interventi sono classificati con codice, descrizione e costo.
+
+---
+
+![test.imc](https://www.alfredocentinaro.it/wp-content/uploads/2022/07/prova4.drawio1.svg "test.imc")
